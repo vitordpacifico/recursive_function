@@ -6,7 +6,6 @@ def vence(n):
         if n - i >= 0:
             if not vence(n - i):
                 return True
-    
     return False
 
 print(vence(4))   
